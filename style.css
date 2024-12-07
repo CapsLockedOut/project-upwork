@@ -1,0 +1,67 @@
+#main-container {
+    background-color: #4f2683;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-section, .sort-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Style the dropdown menus */
+select {        
+    border-radius: 200px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    background-color: #8b58ce; /* Light purple background */
+    color: #fff; /* Dark text color */
+}
+
+.job-card {
+    border-bottom: 1px solid #ccc; /* Add a bottom border */
+    padding: 10px; /* Add padding for spacing */    
+    font-size: 14px; /* Set a font size */
+}
+
+.modal {
+    display: none; /* Initially hidden */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #4f2683;
+    color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #4f2683;
+    width: 80%;
+    border-radius: 10px; /* Adjust the radius as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+    background-color: #e272fb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Adjust the radius as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
